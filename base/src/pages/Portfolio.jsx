@@ -1,13 +1,16 @@
 import React from 'react';
 import image1 from '../assets/management_calander.png';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Portfolio() {
   return (
-    <ul>  
-      <li>
-        <img src={image1} alt="Description of image 1"/>
+    <div>
+      <section>
+        <img src={image1} class="img-thumbnail" alt="Description of image 1" />
+      </section>
+      <section>
         bruh
-      </li>
-    </ul>
+      </section>
+    </div>
   );
 }

@@ -1,9 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+import image1 from '../assets/management_calander.png';
 export default function AboutMe() {
   return (
     <div>
       <h1>About Me Page</h1>
       <p>
+      <img src={image1} alt="Description of image 1"/>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
         ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
